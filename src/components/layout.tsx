@@ -1,7 +1,7 @@
 
 import type { PropsWithChildren } from 'react'
 import Header from './Header'
-import { Coffee, Github, Heart, Instagram, TwitchIcon, Twitter, TwitterIcon, XIcon } from 'lucide-react'
+import { Coffee, Heart,} from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
