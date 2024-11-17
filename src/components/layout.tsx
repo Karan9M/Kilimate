@@ -3,6 +3,9 @@ import type { PropsWithChildren } from 'react'
 import Header from './Header'
 import { Coffee, Github, Heart, Instagram, TwitchIcon, Twitter, TwitterIcon, XIcon } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { RiTwitterXFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
 
 const Layout = ({ children }: PropsWithChildren) => {
     return (
@@ -20,9 +23,9 @@ const Layout = ({ children }: PropsWithChildren) => {
                 <div className='flex justify-center items-center flex-col gap-5 p-5 rounded-lg backdrop-blur'>
                     <h1 className='text-2xl text-gray-400 underline'>Socials</h1>
                     <div className='flex justify-center items-center gap-10 mt-3'>
-                        <Link to={`https://x.com/karan_9M`}><TwitterIcon/></Link>
-                        <Link to={`https://github.com/Karan9M`}><Github/></Link>
-                        <Link to={`https://instagram.com//9__karan`}><Instagram/></Link>
+                        <Link to={`https://x.com/karan_9M`}><RiTwitterXFill  className='h-6 w-6'/></Link>
+                        <Link to={`https://github.com/Karan9M`}><FaGithub className='h-6 w-6'/></Link>
+                        <Link to={`https://instagram.com//9__karan`}><FiInstagram className='h-6 w-6'/></Link>
                     </div>
                 </div>
             </footer>
